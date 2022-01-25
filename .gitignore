@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+*.log
+*.cpp.egg-info/
+bilateralfilter.egg-info/
+build/
+cmake-build-debug/
+dist/
