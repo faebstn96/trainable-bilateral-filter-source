@@ -2,7 +2,7 @@
 
 This repository contains our GPU-accelerated trainable bilateral filter layer (three spatial and one range filter dimension) that can be directly included in any Pytorch graph, just as any conventional layer (FCL, CNN, ...). By calculating the analytical derivative of the bilateral filter with respect to its parameters and its input, the (so far) hyperparameters can be automatically optimized via backpropagation for a calculated loss.
 
-Our corresponding paper [Ultra low-parameter denoising: Trainable bilateral filter layers in computed tomography](https://arxiv.org/pdf/2201.10345.pdf) can be found at arXiv.
+Our corresponding paper [Ultra low-parameter denoising: Trainable bilateral filter layers in computed tomography](https://arxiv.org/pdf/2201.10345.pdf) can be found on [arXiv](https://arxiv.org/pdf/2201.10345.pdf).
 
 ### Implementation:
 
