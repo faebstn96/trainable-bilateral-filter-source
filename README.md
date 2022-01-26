@@ -12,7 +12,8 @@ The general structure of the implementation follows the PyTorch documentation fo
 The C++/CUDA implemented forward and backward functions are compiled via the setup.py script using setuptools:
 1. Create and activate a python environment (python>=3.7).
 2. Install [Torch](https://pytorch.org/get-started/locally/) (tested versions: 1.7.1, 1.9.0).
-3. Compile/install the bilateral filter layer by calling
+3. Navigate into the extracted repo.
+4. Compile/install the bilateral filter layer by calling
 ```python
 python setup.py install
 ```
