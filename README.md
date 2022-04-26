@@ -18,6 +18,17 @@ The C++/CUDA implemented forward and backward functions are compiled via the set
 python setup.py install
 ```
 
+### Troubleshooting
+Compiling the filter layers requires the Nvidia CUDA toolkit. Check its version
+```bash
+nvcc --version
+```
+or install it via, e.g.,
+```bash
+sudo apt update
+sudo apt install nvidia-cuda-toolkit
+```
+
 ### Example scripts:
 * Try out the forward pass by running the example_filter.py (requires [Matplotlib](https://matplotlib.org/stable/users/installing.html) and [scikit-image](https://scikit-image.org/docs/stable/install.html)).
 * Run the gradcheck.py script to verify the correct gradient implementation.
