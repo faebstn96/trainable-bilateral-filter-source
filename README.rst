@@ -13,7 +13,7 @@ filter with respect to its parameters and its input, the (so far)
 hyperparameters can be automatically optimized via backpropagation for a
 calculated loss.
 
-Our corresponding paper `Ultra low-parameter denoising: Trainable
+Our corresponding paper `Ultralow-parameter denoising: Trainable
 bilateral filter layers in computed
 tomography <https://doi.org/10.1002/mp.15718>`__ can be found on
 `Medical Physics <https://doi.org/10.1002/mp.15718>`__ (open access) and
