@@ -1,1 +1,2 @@
 global-include *.h
+prune out
