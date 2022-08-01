@@ -6,7 +6,7 @@ with open('README.rst') as f:
 
 setup(
     name='bilateralfilter_torch',
-    version='1.0.0',
+    version='1.1.0',
     author='Fabian Wagner',
     author_email='fabian.wagner@fau.de',
     description='Trainable Bilateral Filter Layer (PyTorch)',
