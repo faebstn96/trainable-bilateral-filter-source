@@ -1,3 +1,7 @@
+.. image:: https://badge.fury.io/py/bilateralfilter_torch.svg
+    :target: https://badge.fury.io/py/bilateralfilter_torch
+
+==========================================
 Trainable Bilateral Filter Layer (PyTorch)
 ==========================================
 
