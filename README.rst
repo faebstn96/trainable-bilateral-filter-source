@@ -27,7 +27,7 @@ If you find our code useful, please cite our work
 ::
 
    @article{wagner2022ultra,
-     title={Ultra low-parameter denoising: Trainable bilateral filter layers in computed tomography},
+     title={Ultralow-parameter denoising: Trainable bilateral filter layers in computed tomography},
      author={Wagner, Fabian and Thies, Mareike and Gu, Mingxuan and Huang, Yixing and Pechmann, Sabrina and Patwari, Mayank and Ploner, Stefan and Aust, Oliver and Uderhardt, Stefan and Schett, Georg and Christiansen, Silke and Maier, Andreas},
      journal={Medical Physics},
      year={2022},
