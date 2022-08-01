@@ -112,6 +112,11 @@ nvcc-related errors:
    in combination with pybind. Downgrading the toolkit to version 11.3
    fixed the problem (see
    `this <https://discuss.pytorch.org/t/cuda-11-6-extension-problem/145830>`__
-   discussion). #### Windows-related problems: Make sure the
+   discussion).
+
+Windows-related problems:
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Make sure the
    `cl.exe <https://docs.microsoft.com/en-us/cpp/build/reference/compiler-options?view=msvc-170>`__
    environment variable is correctly set.
