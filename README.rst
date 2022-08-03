@@ -1,5 +1,7 @@
 .. image:: https://badge.fury.io/py/bilateralfilter_torch.svg
     :target: https://badge.fury.io/py/bilateralfilter_torch
+.. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+    :target: https://opensource.org/licenses/Apache-2.0
 
 ==========================================
 Trainable Bilateral Filter Layer (PyTorch)
