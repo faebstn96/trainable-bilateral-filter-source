@@ -2,6 +2,8 @@
     :target: https://badge.fury.io/py/bilateralfilter_torch
 .. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
     :target: https://opensource.org/licenses/Apache-2.0
+.. image:: https://img.shields.io/badge/arXiv-2201.10345-f9f107.svg
+    :target: https://arxiv.org/abs/2201.10345
 
 ==========================================
 Trainable Bilateral Filter Layer (PyTorch)
@@ -15,26 +17,11 @@ filter with respect to its parameters and its input, the (so far)
 hyperparameters can be automatically optimized via backpropagation for a
 calculated loss.
 
-Our corresponding paper `Ultralow-parameter denoising: Trainable
+Our associated paper `Ultralow-parameter denoising: Trainable
 bilateral filter layers in computed
 tomography <https://doi.org/10.1002/mp.15718>`__ can be found on
 `Medical Physics <https://doi.org/10.1002/mp.15718>`__ (open access) and
 `arXiv <https://arxiv.org/pdf/2201.10345.pdf>`__ (pre-print).
-
-Citation:
-~~~~~~~~~
-
-If you find our code useful, please cite our work
-
-::
-
-   @article{wagner2022ultra,
-     title={Ultralow-parameter denoising: Trainable bilateral filter layers in computed tomography},
-     author={Wagner, Fabian and Thies, Mareike and Gu, Mingxuan and Huang, Yixing and Pechmann, Sabrina and Patwari, Mayank and Ploner, Stefan and Aust, Oliver and Uderhardt, Stefan and Schett, Georg and Christiansen, Silke and Maier, Andreas},
-     journal={Medical Physics},
-     year={2022},
-     doi={https://doi.org/10.1002/mp.15718}
-   }
 
 Setup:
 ~~~~~~
@@ -77,6 +64,21 @@ Optimized bilateral filter prediction:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://github.com/faebstn96/trainable-bilateral-filter-source/blob/main/out/example_optimization.png?raw=true
+
+Citation:
+~~~~~~~~~
+
+If you find our code useful, please cite our work
+
+::
+
+   @article{wagner2022ultra,
+     title={Ultralow-parameter denoising: Trainable bilateral filter layers in computed tomography},
+     author={Wagner, Fabian and Thies, Mareike and Gu, Mingxuan and Huang, Yixing and Pechmann, Sabrina and Patwari, Mayank and Ploner, Stefan and Aust, Oliver and Uderhardt, Stefan and Schett, Georg and Christiansen, Silke and Maier, Andreas},
+     journal={Medical Physics},
+     year={2022},
+     doi={https://doi.org/10.1002/mp.15718}
+   }
 
 Implementation:
 ~~~~~~~~~~~~~~~
