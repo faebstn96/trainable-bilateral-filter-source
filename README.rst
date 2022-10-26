@@ -2,6 +2,8 @@
     :target: https://badge.fury.io/py/bilateralfilter_torch
 .. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
     :target: https://opensource.org/licenses/Apache-2.0
+.. image:: https://img.shields.io/badge/DOI-10.1002/mp.15718-B31B1B.svg
+    :target: https://doi.org/10.1002/mp.15718
 .. image:: https://img.shields.io/badge/arXiv-2201.10345-f9f107.svg
     :target: https://arxiv.org/abs/2201.10345
 
@@ -19,8 +21,8 @@ calculated loss.
 
 Our associated paper `Ultralow-parameter denoising: Trainable
 bilateral filter layers in computed
-tomography <https://doi.org/10.1002/mp.15718>`__ can be found on
-`Medical Physics <https://doi.org/10.1002/mp.15718>`__ (open access) and
+tomography <https://doi.org/10.1002/mp.15718>`__ can be found in
+`Medical Physics <https://doi.org/10.1002/mp.15718>`__ (open access) or on
 `arXiv <https://arxiv.org/pdf/2201.10345.pdf>`__ (pre-print).
 
 Setup:
@@ -76,6 +78,9 @@ If you find our code useful, please cite our work
      title={Ultralow-parameter denoising: Trainable bilateral filter layers in computed tomography},
      author={Wagner, Fabian and Thies, Mareike and Gu, Mingxuan and Huang, Yixing and Pechmann, Sabrina and Patwari, Mayank and Ploner, Stefan and Aust, Oliver and Uderhardt, Stefan and Schett, Georg and Christiansen, Silke and Maier, Andreas},
      journal={Medical Physics},
+     volume={49},
+     number={8},
+     pages={5107-5120},
      year={2022},
      doi={https://doi.org/10.1002/mp.15718}
    }
