@@ -2,9 +2,9 @@
     :target: https://badge.fury.io/py/bilateralfilter_torch
 .. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
     :target: https://opensource.org/licenses/Apache-2.0
-.. image:: https://img.shields.io/badge/DOI-10.1002/mp.15718-B31B1B.svg
+.. image:: https://img.shields.io/badge/DOI-10.1002/mp.15718-1f425f.svg
     :target: https://doi.org/10.1002/mp.15718
-.. image:: https://img.shields.io/badge/arXiv-2201.10345-f9f107.svg
+.. image:: https://img.shields.io/badge/arXiv-2201.10345-f7dda4.svg
     :target: https://arxiv.org/abs/2201.10345
 
 ==========================================
